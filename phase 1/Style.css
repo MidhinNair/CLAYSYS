@@ -1,0 +1,150 @@
+﻿body {
+    background: radial-gradient(circle, #173b60, #b0d2f9);
+}
+.navbar {
+    display: flex;
+    align-items: center padding: 20px;
+}
+nav{
+    color:antiquewhite;
+    flex:1;
+    text-align:right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+    margin-top:10px;
+}
+nav li{
+    display: inline-block;
+    margin-right:20px;
+}
+a{
+    text-decoration :none;
+    font-family:Montserrat;
+    display:block;
+    color:cornsilk;
+    text-align:center;
+    padding:11px;
+    color:black;
+}
+p{
+    color:black;
+}
+img{
+    padding-top:12px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(171, 243, 243);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.content {
+    margin: 10% auto;
+    padding: 0;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 300px;
+    width: 600px;
+    overflow: hidden;
+    border: 1px saddlebrown solid;
+    box-shadow: 20px hsl(0, 0%, 3%);
+    z-index: -1;
+}
+
+.show {
+    padding: 10%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    width: fit-content;
+}
+
+.slide_content {
+    float: left;
+    width: 600px;
+    height: 300px;
+}
+
+.slides {
+    width: 2400px;
+    -webkit-animation-name: slide;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    /* -webkit-animation-direction: alternate; */
+    -webkit-animation-play-state: running;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide_content:nth-child(1) {
+    background-image: url("https://www.claysys.com/app/uploads/2020/01/376A0076.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+.slide_content:nth-child(2) {
+    background-image: url("https://www.claysys.com/app/uploads/2020/01/376A0076.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+
+.slide_content:nth-child(3) {
+    background-image: url("image/teamwork.jpg");
+    background-size: cover;
+}
+
+.slide_content:nth-child(4) {
+    background-image: url("image/campus.jpg");
+    background-size: cover;
+}
+
+.slide_content:nth-child(5) {
+    background-image: url("image/meetteam.jpg");
+    background-size: cover;
+}
+
+.slide_content:nth-child(6) {
+    background-image: url("image/owner.jpg");
+    background-size: cover;
+}
+@keyframes slide {
+    20% {
+        margin-left: 0px;
+    }
+
+    20% {
+        margin-left: 0px;
+    }
+
+}
+
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.header {
+    background: radial-gradient(#b0d2f9, #b0d2f9);
+}
+.footer{
+    padding : 50px;
+    align-content:center;
+}
+hr {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:black;
+}
